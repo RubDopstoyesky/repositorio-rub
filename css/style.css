@@ -157,6 +157,24 @@ main{
     margin: 10%;
 }
 
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+    .box__container {
+        width: 100%;
+        margin: 0;
+        padding-left: 3px;
+        padding: 15px;
+        border-width: 3px;
+    }
+}
+  /* Media query para vista móvil */
+@media (max-width: 375px) {
+    .box__container {
+    margin: 0.313em;
+    padding: 0.938em;
+    }
+}
+
 /*Caja block*/
 .box__top{
     color: white;
@@ -278,3 +296,18 @@ footer{
     align-items: center;
 }
 
+/* Media queries para vista móvil */
+@media screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+  /* Media query para vista móvil mas pequeñas*/
+@media (max-width: 375px) {
+    .footer {
+        margin: 5px;
+        padding: 15px;
+    }
+}
