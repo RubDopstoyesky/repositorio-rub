@@ -18,7 +18,6 @@ header{
     justify-content: space-between;
 }
 
-
 .header__nav{
     margin: 2px;
     padding: 2px;
@@ -37,7 +36,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    font-size:initial;
+    font-size: initial;
 }
 
 .navbar-brand img{
@@ -49,8 +48,6 @@ header{
     transform: rotate(180deg);
     transition: all 0.5s linear;
 }
-
-
 
 .header-container{
     display: flex;
@@ -96,15 +93,11 @@ main{
     width: fit-content;
     text-align: center;
     background-color: white;
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
-    border-left: 5px solid grey;
-    border-right: 5px solid grey;;
+    border: 5px solid grey;
     display: block;
-    padding: 30px;
-    margin: 10px;
+    margin: 0.625em;
+    padding: 1.875em;
 }
-
 
 /*Estilos de titulo*/
 .title1{
@@ -125,6 +118,7 @@ main{
     margin-bottom:5px;
     transition: all 0.5s linear;
 }
+
 .title2:hover{
     color: white;
     transition: all 0.5s linear;
@@ -145,16 +139,12 @@ main{
 /*Estilo para contenedor de cajas */
 .box__container{
     width:fit-content;
-    border-top: 5px solid grey;
-    border-left: 5px solid grey;
-    border-right: 5px solid grey;
-    border-bottom: 5px solid grey;
+    border: 5px solid grey;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.849);
-    padding: 30px;
-    margin: 10%;
+    margin: 2.5em;
+    padding: 1.875em;
+    box-sizing: border-box;
 }
 
 /* Media query para dispositivos móviles */
