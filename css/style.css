@@ -1,303 +1,308 @@
 /*Estilo general*/
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Inconsolata', monospace;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
 }
 
 /*Estilo encabezado*/
-header{
-    background-color: goldenrod;
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+header {
+  background-color: goldenrod;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header__nav{
-    margin: 2px;
-    padding: 2px;
-    border: 2px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    font-size:xx-large;
-    background-image: radial-gradient(circle, silver, goldenrod, silver);
+.header__nav {
+  margin: 2px;
+  padding: 2px;
+  border: 2px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: xx-large;
+  background-image: radial-gradient(circle, silver, goldenrod, silver);
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: initial;
 }
 
-.navbar-brand{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-size: initial;
+.navbar-brand img {
+  width: 150px;
+  transition: all 0.5s linear;
 }
 
-.navbar-brand img{
-    width: 150px;
-    transition: all 0.5s linear;
+.navbar-brand img:hover {
+  transform: rotate(180deg);
+  transition: all 0.5s linear;
 }
 
-.navbar-brand img:hover{
-    transform: rotate(180deg);
-    transition: all 0.5s linear;
+.header-container {
+  display: flex;
+  justify-content: center;
 }
 
-.header-container{
-    display: flex;
-    justify-content: center;
+.nav-link {
+  width: fit-content;
+  transition: all 0.5s linear;
 }
 
-.nav-link{
-    width: fit-content;
-    transition: all 0.5s linear;
-}
-
-.nav-link:hover{
-    width: fit-content;
-    transform: scale(1.2, 1.2);
-    transform: translateX(5px);
-    color: gold;
-    transition: all 0.5s linear;
-    border-bottom: 2px solid red;
+.nav-link:hover {
+  width: fit-content;
+  transform: scale(1.2, 1.2);
+  transform: translateX(5px);
+  color: white;
+  transition: all 0.5s linear;
+  border-bottom: 2px solid red;
 }
 
 /*Fondo del sitio*/
-body{
-    background-image: url(../images/fondo.jpg);
-    background-attachment: fixed;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin:0%;
-    padding:0%;
+body {
+  background-image: url(../images/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
 }
 
 /*Estilo main*/
-main{
-    width: 100%;
-    align-items: center;
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
+main {
+  width: 100%;
+  align-items: center;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*Estilo para parrafos*/
-.par__container{
-    width: fit-content;
-    text-align: center;
-    background-color: white;
-    border: 5px solid grey;
-    display: block;
-    margin: 0.625em;
-    padding: 1.875em;
+
+.par__container {
+  width: fit-content;
+  text-align: center;
+  background-color: white;
+  border: 5px solid grey;
+  display: block;
+  padding: 1.875em;
+  margin: 0.625em;
+}
+
+/* Media query para vista móvil */
+@media (max-width: 768px) {
+  .par__container {
+    margin: 0.313em;
+    padding: 0.938em;
+  }
 }
 
 /*Estilos de titulo*/
-.title1{
-    font-size:40px;
-    text-align: center;
-    color:red;
-    margin-bottom:10px;
-    transition: all 0.5s linear;
+.title1 {
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+  transition: all 0.5s linear;
 }
-.title1:hover{
-    color: black;
-    transition: all 0.5s linear;
-}
-
-.title2{
-    font-size:30px;
-    color:goldenrod;
-    margin-bottom:5px;
-    transition: all 0.5s linear;
+.title1:hover {
+  color: black;
+  transition: all 0.5s linear;
 }
 
-.title2:hover{
-    color: white;
-    transition: all 0.5s linear;
+.title2 {
+  font-size: 30px;
+  color: goldenrod;
+  margin-bottom: 5px;
+  transition: all 0.5s linear;
+}
+.title2:hover {
+  color: white;
+  transition: all 0.5s linear;
 }
 
-.title3{
-    font-size:30px;
-    background-color: white;
-    color:goldenrod;
-    text-align:left;
-    transition: all 0.5s linear;
+.title3 {
+  font-size: 30px;
+  background-color: white;
+  color: goldenrod;
+  text-align: left;
+  transition: all 0.5s linear;
 }
-.title3:hover{
-    color: red;
-    transition: all 0.5s linear;
+.title3:hover {
+  color: red;
+  transition: all 0.5s linear;
 }
-
-/*Estilo para contenedor de cajas */
-.box__container{
-    width:fit-content;
-    border: 5px solid grey;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.849);
-    margin: 2.5em;
-    padding: 1.875em;
-    box-sizing: border-box;
+/* Estilo para contenedor de cajas */
+.box__container {
+  width: fit-content;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.849);
+  padding: 1.875em;
+  margin: 2.5em;
+  box-sizing: border-box;
 }
 
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
-    .box__container {
-        width: 100%;
-        margin: 0;
-        padding-left: 3px;
-        padding: 15px;
-        border-width: 3px;
-    }
+  .box__container {
+    width: 100%;
+    margin: 0;
+    padding-left: 3px;
+    padding: 15px;
+    border-width: 3px;
+  }
 }
-  /* Media query para vista móvil */
+/* Media query para vista móvil */
 @media (max-width: 375px) {
-    .box__container {
+  .box__container {
     margin: 0.313em;
     padding: 0.938em;
-    }
+  }
 }
 
 /*Caja block*/
-.box__top{
-    color: white;
-    font-size: 20px;
-    display:block; 
-    text-align: center;
-    margin:10px;
-    padding:30px 30px 30px 30px;
+.box__top {
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 30px 30px 30px 30px;
 }
 
 /*Caja inline block*/
-.box__img{
-    color: white;
-    font-size: 20px;
-    display: flex;
-    display: inline-block; 
-    text-align: center;
-    margin:30px;
-    padding:30px 30px 30px 30px;
+.box__img {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  padding: 30px 30px 30px 30px;
 }
 
-.box__img img{
-    text-align: center;
-    width: 250px;
-    
+.box__img img {
+  text-align: center;
+  width: 250px;
 }
 
-/*no funciono como queria pero lo dejare para despues
-.nft__img{
-    size: 600px;
-    transition: all 0.5s linear;
+/*Futuro*/
+.nft__img {
+  size: 600px;
+  transition: all 0.5s linear;
 }
 
-.nft__img:hover{
-    transform: scale(1.25, 1.25);
-    transition: all 0.5s linear;
+.nft__img:hover {
+  transform: scale(1.25, 1.25);
+  transition: all 0.5s linear;
 }
-no funciono como queria pero lo dejare para despues*/
 
 /*Estilo del contenedor de videos*/
-.videos__container{
-    background-color: rgba(255, 255, 255, 0.852);
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
-    padding: 30px;
-    margin: 10px;
-    width:min-content;
+.videos__container {
+  background-color: rgba(255, 255, 255, 0.852);
+  border-top: 5px solid grey;
+  border-bottom: 5px solid grey;
+  padding: 30px;
+  margin: 10px;
+  width: min-content;
 }
 
 /*Estilo para ficha de contacto*/
-.ficha-contacto{
-    width: fit-content;
-    text-align: center;
-    border-top: 5px solid grey;
-    border-left: 5px solid grey;
-    border-right: 5px solid grey;
-    border-bottom: 5px solid grey;
-    padding: 30px;
-    margin: 10px;
-    background-image: radial-gradient(circle, red, red, black);
+.ficha-contacto {
+  width: fit-content;
+  text-align: center;
+  border-top: 5px solid grey;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+  padding: 30px;
+  margin: 10px;
+  background-image: radial-gradient(circle, red, red, black);
 }
 
-.ficha-contacto1 img{
-    color: white;
-    font-size: 20px;
-    display:inline-flex; 
-    text-align: center;
-    width: fit-content;
-    margin:10px;
-    padding:30px 30px 30px 30px;
+.ficha-contacto1 img {
+  color: white;
+  font-size: 20px;
+  display: inline-flex;
+  text-align: center;
+  width: fit-content;
+  margin: 10px;
+  padding: 30px 30px 30px 30px;
 }
 
-.ficha-contacto1 form{
-    color: black;
-    font-size: 20px;
-    display: block; 
-    text-align: center;
-    margin:10px;
-    padding:30px 30px 30px 30px;
+.ficha-contacto1 form {
+  color: black;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 30px 30px 30px 30px;
 }
 
 /* editado para que siempre abarque lo que tenga de la pantalla a lo ancho*/
-.ubicacion__container{
-    background-color: white;
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
-    border-left: 5px solid grey;
-    border-right: 5px solid grey;;
-    padding: 30px;
-    margin: 10px;
-    width: 100%;
+.ubicacion__container {
+  background-color: white;
+  border-top: 5px solid grey;
+  border-bottom: 5px solid grey;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  padding: 30px;
+  margin: 10px;
+  width: 100%;
 }
 
-button{
-    border-radius: 12px;
-    background-color: gold;
-    margin: 5px;
-    padding: 12px 25px;
-    color: black;
-    cursor: pointer;
-    transition: all 0.5s linear;
+button {
+  border-radius: 12px;
+  background-color: gold;
+  margin: 5px;
+  padding: 12px 25px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s linear;
 }
 
-button:hover{
-    transform: translate(5px);
-    background-color: darkred;
-    transition: all 0.5s linear;
+button:hover {
+  transform: translate(5px);
+  background-color: darkred;
+  transition: all 0.5s linear;
 }
 
 /*Estilo para el Footer*/
-.footer{
-    background-color: orangered;
-    width: 100%;
-    margin: auto;
-    font-size: 25px;
-    padding: 20px;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
+.footer {
+  background-color: orangered;
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Media queries para vista móvil */
 @media screen and (max-width: 600px) {
-    .footer {
-        flex-direction: column;
-        font-size: 20px;
-    }
+  .footer {
+    flex-direction: column;
+    font-size: 20px;
+  }
 }
 
-/* Media query para vista móvil mas pequeñas*/
+/* Media query para vista móvil mas pequeñas */
 @media (max-width: 375px) {
-    .footer {
-        margin: 5px;
-        padding: 15px;
-    }
+  .footer {
+    margin: 5px;
+    padding: 15px;
+  }
 }
