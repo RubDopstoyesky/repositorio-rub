@@ -285,7 +285,7 @@ button:hover{
 }
 
 /*Estilo para el Footer*/
-footer{
+.footer{
     background-color: orangered;
     width: 100%;
     margin: auto;
@@ -304,7 +304,7 @@ footer{
     }
 }
 
-  /* Media query para vista móvil mas pequeñas*/
+/* Media query para vista móvil mas pequeñas*/
 @media (max-width: 375px) {
     .footer {
         margin: 5px;
