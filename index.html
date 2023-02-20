@@ -15,21 +15,35 @@
 <body>
     <!--Aqui inicia el cuerpo y nuestra cabeza es comun para todas las paginas del sitio web ya que incluye el logo, el nombre principal del sitio y el menu de navegacion del sitio()-->
     <header>
-        <div class="header__logo">
-            <img src="./images/radiohead_logoOso.jpg" alt="logo sitio" />
-            <h1>RADIOHEAD</h1>
-        </div>
-        <nav id="header__nav">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/albumes.html">Mis Albumes favoritos</a></li>
-                <li><a href="./pages/escuchar.html">Escuchar en Linea</a></li>
-                <li><a href="./pages/videos.html">Ver Conciertos</a></li>
-                <li><a href="#contacto">Contactanos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary header__nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/radiohead_logoOso.jpg">RADIOHEADS</a>
+              <button class="navbar-toggler button-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/albumes.html">Albumes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/escuchar.html">Escuchar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/videos.html">Conciertos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main>
+        <main>
         <!--Iniciamos con el contenido del index contiene un par de parrafos y los nombres con imagen de los integrantes (se repiten proximanete lo adecuo) tambien el sello de garantia de la pagina que a futuro se le agregara la funcion de display de imagen NFT que se simulará vender en esta pagina y seguido de ello tiene un log in que serviria para hacer distinguir al usuario que utiliza el sitio y le muestre su NFT que el adquirio de manera permanente LIMITANDO a 1 solo NFT por usuario para preservar la exclusividad de este club de fans de RADIOHEAD ;D -->
         <section id="articulo-principal">
             <div class="par__container">
@@ -90,30 +104,6 @@
             </div>
             
             
-            
-        </section>
-
-        <div class="box__container">
-            <h2 class="title2">NTF DISPLAY</h2>
-            <article class="nft__img">
-                <img src="./images/radiohead_logoOso.jpg" alt="" />
-                <p>Tu propio NFT</p>
-            </article>
-        </div>
-        <!--Login incompleto por falta de tiempo jejeje-->
-        <section id="ficha-contacto">
-            <h2 class="title2">LOGIN</h2>
-            <h2 class="title2">EXCLUSIVO MIEMBROS</h2>
-            <form class="ficha-contacto animate__animated animate__fadeInDown">
-                <input type="text" id="login" name="login" placeholder="login"/>
-                <input type="text" id="password" name="login" placeholder="password"/>
-                <input type="submit" value="Log In" />
-            </form>
-            <!-- El gancho queria hacerlo dinamico pero no me ajustó el tiempo prefiero que se vea aestable a dejarlo todo mal, a futuro mejoraré el sitio-->
-            <div id="formFooter">
-                <a class="underlineHover" href="#">¿Quieres un NFT?</a>
-            </div>
-        </section>
     </main>
     <!--Footer-->
     <footer id="contacto">

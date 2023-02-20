@@ -3,15 +3,14 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
-    
+    box-sizing: border-box;
 }
 
 /*Estilo encabezado*/
 header{
     background-color: goldenrod;
-    padding: 1%;
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -20,48 +19,57 @@ header{
 }
 
 
-
-.header__logo{
+.header__nav{
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    font-size:xx-large;
+    background-image: radial-gradient(circle, silver, goldenrod, silver);
 }
 
-.header__logo img{
-    width: 60px;
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size:initial;
+}
+
+.navbar-brand img{
+    width: 150px;
     transition: all 0.5s linear;
 }
 
-.header__logo img:hover{
+.navbar-brand img:hover{
     transform: rotate(180deg);
     transition: all 0.5s linear;
 }
 
-#header__nav{
-    margin: auto;
+
+
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
     width: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#header__nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-#header__nav ul li{
-    padding: 0px 50px;  
-}
-
-#header__nav ul li:hover{
-    transform: translate(-5px);
-    transform: scale(1.1, 1.1);
     transition: all 0.5s linear;
 }
 
+.nav-link:hover{
+    width: fit-content;
+    transform: scale(1.2, 1.2);
+    transform: translateX(5px);
+    color: gold;
+    transition: all 0.5s linear;
+    border-bottom: 2px solid red;
+}
 
 /*Fondo del sitio*/
 body{
@@ -78,21 +86,23 @@ body{
 main{
     width: 100%;
     align-items: center;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
 }
 
 /*Estilo para parrafos*/
 .par__container{
+    width: fit-content;
+    text-align: center;
     background-color: white;
     border-top: 5px solid grey;
     border-bottom: 5px solid grey;
     border-left: 5px solid grey;
     border-right: 5px solid grey;;
+    display: block;
     padding: 30px;
     margin: 10px;
-    width: fit-content;
 }
 
 
@@ -173,12 +183,12 @@ main{
 
 /*ME ENORGULLESE QUE EL SELLO DE GARANTIA ESTE EN DORADO Y SEA ESTILIZADO EN HTML POR QUE ES PARTE DE LA ESCENSIA DE LO QUE QUIERE VENDER LA PAGINA*/
 .nft__img{
-    size: 666px;
+    size: 600px;
     transition: all 0.5s linear;
 }
 
 .nft__img:hover{
-    transform: scale(1.5, 1.5);
+    transform: scale(1.25, 1.25);
     transition: all 0.5s linear;
 }
 
@@ -193,19 +203,19 @@ main{
 }
 
 /*Estilo para ficha de contacto*/
-#ficha-contacto{
-    width: 75%;
+.ficha-contacto{
+    width: fit-content;
     text-align: center;
     border-top: 5px solid grey;
     border-left: 5px solid grey;
     border-right: 5px solid grey;
     border-bottom: 5px solid grey;
     padding: 30px;
-    margin: 50px;
+    margin: 10px;
     background-image: radial-gradient(circle, red, red, black);
 }
 
-#ficha-contacto img{
+.ficha-contacto1 img{
     color: white;
     font-size: 20px;
     display:inline-flex; 
@@ -215,7 +225,7 @@ main{
     padding:30px 30px 30px 30px;
 }
 
-#ficha-contacto form{
+.ficha-contacto1 form{
     color: black;
     font-size: 20px;
     display: block; 
@@ -237,7 +247,7 @@ main{
 }
 
 button{
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: gold;
     margin: 5px;
     padding: 12px 25px;
@@ -247,7 +257,7 @@ button{
 }
 
 button:hover{
-    transform: translate(-5px);
+    transform: translate(5px);
     background-color: darkred;
     transition: all 0.5s linear;
 }
