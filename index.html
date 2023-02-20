@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--Proyecto PreEntrega 1 Realizado por alumno Ruben Dopstoyesky Romero Gomez de la carrera Desarrollo Full Stack Curso Desarrollo Web VIVA MÉXICO-->
+<html lang="en">
+<!--Esta parte va contenido que se repite en todas las paginas del sitio donde se definen  lenguasjes, caracteres compatibles, miniatura de pestaña, estilo de letra y estilo de css(a excepcion de "../" para cambiar de direccion de carpeta en el estilo y el nombre de la pestaña de la pagina en el sitio web )-->
+<head>
+    <link rel="shortcut icon" href="./images/radiohead_logoOso.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Inicio</title>
+</head>
+<body>
+    <!--Aqui inicia el cuerpo y nuestra cabeza es comun para todas las paginas del sitio web ya que incluye el logo, el nombre principal del sitio y el menu de navegacion del sitio()-->
+    <header>
+        <div class="header__logo">
+            <img src="./images/radiohead_logoOso.jpg" alt="logo sitio" />
+            <h1>RADIOHEADS</h1>
+        </div>
+        <nav id="header__nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./pages/albumes.html">Mis Albumes favoritos</a></li>
+                <li><a href="./pages/escuchar.html">Escuchar en Linea</a></li>
+                <li><a href="./pages/videos.html">Ver Conciertos</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Iniciamos con el contenido del index contiene un par de parrafos y los nombres con imagen de los integrantes (se repiten proximanete lo adecuo) tambien el sello de garantia de la pagina que a futuro se le agregara la funcion de display de imagen NFT que se simulará vender en esta pagina y seguido de ello tiene un log in que serviria para hacer distinguir al usuario que utiliza el sitio y le muestre su NFT que el adquirio de manera permanente LIMITANDO a 1 solo NFT por usuario para preservar la exclusividad de este club de fans de RADIOHEAD ;D -->
+        <section id="articulo-principal">
+            <div class="par__container">
+                <h2 class="title1">BIENVENIDOS A MI FAN-PAGE DE RADIOHEAD</h2>
+                <p class="par__container animate__animated animate__fadeInDown">Hola a todo el mundo!! bienvenidos a mi sitio web (como lo dice en
+                el titulo) el cual lo he hecho con los conocimientos adquiridos en
+                2 clases de mi carrera de desarrollo full stack, así es solo en
+                dos clases, venga que avanzamos en serio por aqui, esta pagina es
+                un tributo en html para mi grupo musical favorito de todos los
+                tiempos nada mas y nada menos que ¡RADIOHEAD!, les quiero mostrar
+                un poquito sobre sus canciones un par de videos y albumes para ver
+                si se animan a escucharlo para ver si les gusta y los siguen (ya
+                se que es una banda "vieja" pero incluso a mi de repente se me
+                olvida con tanta musica nueva) los dejo para que continuen
+                navegando por el sitio y todo esto se pudo gracias al excelente
+                equipo de trabajo de <a href="https://www.coderhouse.com.mx/" target="_blank">CODERHOUSE</a> si leiste hasta acá ahora tienes que visitarlos!
+                </p>
+            </div>
+            <div class="par__container">
+                <h3 class="title3">BIOGRAFIA</h3>
+                <p class="par__container animate__animated animate__fadeInDown">
+                Radiohead es una banda británica de rock alternativo originaria de
+                Abingdon-on-Thames, Inglaterra, formada en 1985 inicialmente como
+                una banda de versiones. Radiohead lanzó su primer sencillo,
+                «Creep», en 1992. Si bien la canción fue en un comienzo un fracaso
+                comercial, se convirtió en un éxito mundial tras el lanzamiento de
+                su álbum debut, Pablo Honey (1993) debido al boom comercial del
+                rock alternativo. La popularidad de Radiohead en el Reino Unido
+                aumentó con su segundo álbum, The Bends (1995). El tercero, OK
+                Computer (1997), con un sonido expansivo y temáticas como la
+                alienación y la globalización, les dio fama mundial y ha sido
+                aclamado como un disco histórico de la década de 1990 y uno de los
+                mejores álbumes de todos los tiempos.
+                </p>
+            </div>
+            <div class="box__container">
+                <h2 class="title2">Integrantes</h2>
+                <article class="box__img">
+                    <img src="./images/integrantes.png" alt="" />
+                    <p>Thom yorke</p>
+                </article>
+                <article class="box__img">
+                    <img src="./images/integrantes.png" alt="" />
+                    <p>Johnny Greenwood</p>
+                </article>
+                <article class="box__img">
+                    <img src="./images/integrantes.png" alt="" />
+                    <p>Ed O'brein</p>
+                </article>
+                <article class="box__img">
+                    <img src="./images/integrantes.png" alt="" />
+                    <p>Colin Greenwood</p>
+                </article>
+                <article class="box__img">
+                    <img src="./images/integrantes.png" alt="" />
+                    <p>Philip selwey</p>
+                </article>
+            </div>
+            
+            
+            
+        </section>
+
+        <div class="box__container">
+            <h2 class="title2">NTF DISPLAY</h2>
+            <article class="nft__img">
+                <img src="./images/radiohead_logoOso.jpg" alt="" />
+                <p>Tu propio NFT</p>
+            </article>
+        </div>
+        <!--Login incompleto por falta de tiempo jejeje-->
+        <section id="ficha-contacto">
+            <h2 class="title2">LOGIN</h2>
+            <h2 class="title2">EXCLUSIVO MIEMBROS</h2>
+            <form class="ficha-contacto animate__animated animate__fadeInDown">
+                <input type="text" id="login" name="login" placeholder="login"/>
+                <input type="text" id="password" name="login" placeholder="password"/>
+                <input type="submit" value="Log In" />
+            </form>
+            <!-- El gancho queria hacerlo dinamico pero no me ajustó el tiempo prefiero que se vea aestable a dejarlo todo mal, a futuro mejoraré el sitio-->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">¿Quieres un NFT?</a>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer id="contacto">
+        <h3>RADIOHEADS</h3>
+        <p>
+            <a href="./pages/contacto.html">CONTACTO</a>
+        </p>
+    </footer>
+</body>
+</html>

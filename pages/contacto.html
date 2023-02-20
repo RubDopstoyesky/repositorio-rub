@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Proyecto PreEntrega 1 Realizado por alumno Ruben Dopstoyesky Romero Gomez de la carrera Desarrollo Full Stack Curso Desarrollo Web VIVA MÉXICO-->
+<html lang="en">
+<!--Esta parte va contenido que se repite en todas las paginas del sitio donde se definen  lenguasjes, caracteres compatibles, miniatura de pestaña, estilo de letra y estilo de css(a excepcion de "./" para cambiar de direccion de carpeta en el estilo y el nombre de la pestaña de la pagina en el sitio web )-->
+<head>
+    <link rel="shortcut icon" href="../images/radiohead_logoOso.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>contacto</title>
+</head>
+<body>
+    <!--Aqui inicia el cuerpo y nuestra cabeza es comun para todas las paginas del sitio web ya que incluye el logo, el nombre principal del sitio y el menu de navegacion del sitio()-->
+    <header>
+        <div class="header__logo">
+            <img src="../images/radiohead_logoOso.jpg" alt="logo sitio" />
+            <h1>RADIOHEADS</h1>
+        </div>
+        <nav id="header__nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="albumes.html">Mis Albumes favoritos</a></li>
+                <li><a href="escuchar.html">Escuchar en Linea</a></li>
+                <li><a href="videos.html">Ver Conciertos</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--La pagina de contacto con un formulario muy sencillo y imagenes que proximaente se animaran para que esten a la venta como "NTFs"-->
+        <section id="ficha-contacto">
+            <h2 class="title2">¡CONTACTAME!</h2>
+            <img src="../images/contacto.PNG" alt="contacto" />
+            <h2 class="title2">Llene el formulario para recibir noticias</h2>
+            <form class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                <div>
+                    <label>Nombre completo:<input type="text" placeholder="Ingrese Nombre completo"/></label>
+                </div>
+                <div>
+                    <label>Correo electronico:<input type="text" placeholder="Ingrese email"/></label>
+                </div>
+                <div>
+                    <textarea name="" id="Comment" cols="30" rows="10" placeholder="ESCRIBA AQUI POR QUE AMA TANTO RADIOHEAD"></textarea>
+                </div>
+                <div>
+                <h3>¿Cual es su album favorito?</h3>
+                <select name="album" id="1">
+                    <option value="" disabled selected>Elija...</option>
+                    <option value="">OK Computer</option>
+                    <option value="">Kid A</option>
+                    <option value="">The Bends</option>
+                </select>
+                </div>
+                <div>
+                <h3>Selecciona tu integrante favorito</h3>
+                <label for="seleccionar">Thom</label>
+                <input name="integrantes" type="checkbox" />
+
+                <label for="seleccionar">Johnny</label>
+                <input name="integrantes" type="checkbox" />
+
+                <label for="seleccionar">Colin</label>
+                <input name="integrantes" type="checkbox" />
+                </div>
+                <div>
+                <h3>¿Te gusta Creep?</h3>
+                <label for="pregunta">Si</label>
+                <input name="Pregunta de oro" type="radio" />
+
+                <label for="pregunta">No</label>
+                <input name="Pregunta de oro" type="radio" />
+
+                <label for="pregunta">WTH im doing here?</label>
+                <input name="Pregunta de oro" type="radio" />
+                </div>
+                <div>
+                    <button>-ENVIAR-</button>
+                    <button>-RESETEAR-</button>
+                </div>
+            </form>
+            <img src="../images/contacto.PNG" alt="contacto" />
+        </section>
+        <!--Hasta acá se encuentra ubicado el club, jeje si algún dia vienen los recibo en mi casa <3-->
+            <div class="par__container">
+                <h2 class="title3">UBICA EL CLUB</h2>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15087.446471598298!2d-104.31882143860251!3d19.025818531636997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1674807347426!5m2!1ses-419!2smx"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </main>
+
+        
+        <!--Footer-->
+        <footer id="contacto">
+        <h3>RADIOHEADS</h3>
+        <p><a href="./contacto.html">CONTACTO</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,249 @@
+/*Estilo general*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+/*Estilo encabezado*/
+header{
+    background-color: goldenrod;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilo main*/
+main{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img{
+    width: 60px;
+    transition: all 0.5s linear;
+}
+
+.header__logo img:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s linear;
+}
+
+#header__nav{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#header__nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#header__nav ul li{
+    padding: 0px 50px;  
+}
+
+#header__nav ul li:hover{
+    transform: translate(-5px);
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s linear;
+}
+
+
+/*Fondo del sitio*/
+body{
+    background-image: url(../images/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0%;
+    padding:0%;
+}
+
+/*Estilo para parrafos*/
+.par__container{
+    background-color: white;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+
+}
+
+/*Estilos de titulo*/
+.title1{
+    font-size:40px;
+    text-align: center;
+    color:red;
+    margin-bottom:10px;
+    transition: all 0.5s linear;
+}
+.title1:hover{
+    color: black;
+    transition: all 0.5s linear;
+}
+
+.title2{
+    font-size:30px;
+    color:goldenrod;
+    margin-bottom:5px;
+    transition: all 0.5s linear;
+}
+.title2:hover{
+    color: white;
+    transition: all 0.5s linear;
+}
+
+.title3{
+    font-size:30px;
+    background-color: white;
+    color:goldenrod;
+    text-align:left;
+    transition: all 0.5s linear;
+}
+.title3:hover{
+    color: red;
+    transition: all 0.5s linear;
+}
+
+/*Estilo para contenedor de cajas */
+.box__container{
+    width: fit-content;
+    border-top: 5px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    border-bottom: 5px solid grey;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 30px;
+    margin: 50px;
+}
+
+/*Caja block*/
+.box__top{
+    color: white;
+    font-size: 20px;
+    display:block; 
+    text-align: center;
+    margin:10px;
+    padding:30px 30px 30px 30px;
+}
+
+/*Caja inline block*/
+.box__img{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    display:inline-block; 
+    text-align: center;
+    margin:30px;
+    padding:30px 30px 30px 30px;
+}
+
+.box__img img{
+    text-align: center;
+    width: 250px;
+}
+
+/*ME ENORGULLESE QUE EL SELLO DE GARANTIA ESTE EN DORADO Y SEA ESTILIZADO EN HTML POR QUE ES PARTE DE LA ESCENSIA DE LO QUE QUIERE VENDER LA PAGINA*/
+.nft__img{
+    size: 666px;
+    transition: all 0.5s linear;
+}
+
+.nft__img:hover{
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s linear;
+}
+
+/*Estilo del contenedor de videos*/
+.videos__container{
+    background-color: rgba(255, 255, 255, 0.852);
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    padding: 30px;
+    margin: 10px;
+    width: fit-content;
+}
+
+/*Estilo para ficha de contacto*/
+#ficha-contacto{
+    width: 75%;
+    text-align: center;
+    border-top: 5px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    border-bottom: 5px solid grey;
+    padding: 30px;
+    margin: 50px;
+    background-image: radial-gradient(circle, red, red, black);
+}
+
+#ficha-contacto img{
+    color: white;
+    font-size: 20px;
+    display:inline-flex; 
+    text-align: center;
+    width: fit-content;
+    margin:10px;
+    padding:30px 30px 30px 30px;
+}
+
+#ficha-contacto form{
+    color: black;
+    font-size: 20px;
+    display: block; 
+    text-align: center;
+    margin:10px;
+    padding:30px 30px 30px 30px;
+}
+
+button{
+    border-radius: 8px;
+    background-color: gold;
+    margin: 5px;
+    padding: 12px 25px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+button:hover{
+    transform: translate(-5px);
+    background-color: darkred;
+    transition: all 0.5s linear;
+}
+
+/*Estilo para el Footer*/
+footer{
+    background-color: orangered;
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+

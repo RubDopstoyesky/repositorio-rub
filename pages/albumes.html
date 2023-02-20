@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--Proyecto PreEntrega 1 Realizado por alumno Ruben Dopstoyesky Romero Gomez de la carrera Desarrollo Full Stack Curso Desarrollo Web VIVA MÉXICO-->
+<html lang="en">
+<!--Esta parte va contenido que se repite en todas las paginas del sitio donde se definen  lenguasjes, caracteres compatibles, miniatura de pestaña, estilo de letra y estilo de css(a excepcion de "./" para cambiar de direccion de carpeta en el estilo y el nombre de la pestaña de la pagina en el sitio web )-->
+<head>
+    <link rel="shortcut icon" href="../images/radiohead_logoOso.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Albumes</title>
+</head>
+<body>
+    <!--Aqui inicia el cuerpo y nuestra cabeza es comun para todas las paginas del sitio web ya que incluye el logo, el nombre principal del sitio y el menu de navegacion del sitio()-->
+    <header>
+        <div class="header__logo">
+            <img src="../images/radiohead_logoOso.jpg" alt="logo sitio" />
+            <h1>RADIOHEADS</h1>
+        </div>
+        <nav id="header__nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="albumes.html">Mis Albumes favoritos</a></li>
+                <li><a href="escuchar.html">Escuchar en Linea</a></li>
+                <li><a href="videos.html">Ver Conciertos</a></li>
+                <li><a href="#contacto">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- inicio del contenido principal de esta pagina del sitio incluye urls que te llevan a spotify a escuchar mis albumes favoritos favoritos de radiohead -->
+        <section id="albumes">
+            <div class="box__container">
+                <h1 class="title1">Mis albumes favoritos de RADIOHEAD</h1>
+                <article class="box__img">
+                    <p>2000</p>
+                    <img src="../images/kid-a-cover.PNG" alt="album1" />
+                    <p>- Top 3 canciones -</p>
+                    <ol>
+                        <li>How to Disappear Completely</li>
+                        <li>Morning Bell</li>
+                        <li>In Limbo</li>
+                    </ol>
+                    <p>
+                        <a href="https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=rWVAGZ4WQN-tdpyRowQjBA" target="_blank">Escucha el album en Spotify</a> 
+                    </p>
+                </article>
+                <article class="box__img">
+                    <p>1997</p>
+                    <img src="../images/ok-computer-cover.PNG" alt="album2" />
+                    <p>- Top 3 canciones -</p>
+                    <ol>
+                        <li>Paranoid Android</li>
+                        <li>Karma Police</li>
+                        <li>Subterrean Homesick Alien</li>
+                    </ol>
+                    <p>
+                        <a href="https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=f3Wy-M29QG6dPTSCtMHNXg" target="_blank">Escucha el album en Spotify</a>
+                    </p>
+                </article>
+                <article class="box__img">
+                    <p>1995</p>
+                    <img src="../images/the-bends-cover.PNG" alt="album3" />
+                    <p>- Top 3 canciones -</p>
+                    <ol>
+                        <li>Planet Telex</li>
+                        <li>Fake Plastic Trees</li>
+                        <li>High and Dry</li>
+                    </ol>
+                    <p>
+                        <a href="https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7?si=rWVAGZ4WQN-tdpyRowQjBA" target="_blank">Escucha el album en Spotify</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer id="contacto">
+        <h3>RADIOHEADS</h3>
+        <p>
+            <a href="./contacto.html">CONTACTO</a>
+        </p>
+    </footer>
+</body>
+</html>
