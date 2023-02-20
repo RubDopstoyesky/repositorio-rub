@@ -183,7 +183,6 @@ main{
     text-align: center;
     margin:10px;
     padding:30px 30px 30px 30px;
-    width: min-content;
 }
 
 /*Caja inline block*/
@@ -199,11 +198,11 @@ main{
 
 .box__img img{
     text-align: center;
-    width: 70%;
+    width: 250px;
     
 }
 
-/*ME ENORGULLESE QUE EL SELLO DE GARANTIA ESTE EN DORADO Y SEA ESTILIZADO EN HTML POR QUE ES PARTE DE LA ESCENSIA DE LO QUE QUIERE VENDER LA PAGINA*/
+/*no funciono como queria pero lo dejare para despues
 .nft__img{
     size: 600px;
     transition: all 0.5s linear;
@@ -213,6 +212,7 @@ main{
     transform: scale(1.25, 1.25);
     transition: all 0.5s linear;
 }
+no funciono como queria pero lo dejare para despues*/
 
 /*Estilo del contenedor de videos*/
 .videos__container{
