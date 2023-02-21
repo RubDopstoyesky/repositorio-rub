@@ -142,6 +142,21 @@ main {
   color: red;
   transition: all 0.5s linear;
 }
+
+.link {
+    width: fit-content;
+    transition: all 0.5s linear;
+  }
+  
+  .link:hover {
+    width: fit-content;
+    transform: scale(9.5);
+    transform: translate(5px);
+    color: white;
+    transition: all 0.5s linear;
+    border-bottom: 2px solid red;
+  }
+
 /* Estilo para contenedor de cajas */
 .box__container {
   width: fit-content;
@@ -195,7 +210,58 @@ main {
 .box__img img {
   text-align: center;
   width: 250px;
+  transition: all 0.5s linear;
 }
+
+.box__img img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 0.5s linear;
+  }
+
+/*prueba para caja*/
+.box__containershiny {
+    width: fit-content;
+    border: 5px solid grey;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 1.875em;
+    margin: 2.5em;
+    box-sizing: border-box;
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: rgb(4, 2, 66);
+    }
+    100% {
+      background-color: #921711;
+    }
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+    .box__containershiny {
+      width: 100%;
+      margin: 0;
+      padding-left: 3px;
+      padding: 15px;
+      border-width: 3px;
+    }
+  }
+  /* Media query para vista móvil */
+  @media (max-width: 375px) {
+    .box__containershiny {
+      margin: 0.313em;
+      padding: 0.938em;
+    }
+  }
 
 /*ME ENORGULLESE QUE EL SELLO DE GARANTIA ESTE EN DORADO Y SEA ESTILIZADO EN HTML POR QUE ES PARTE DE LA ESCENSIA DE LO QUE QUIERE VENDER LA PAGINA*/
 .nft__img {
@@ -277,6 +343,7 @@ button:hover {
   background-color: darkred;
   transition: all 0.5s linear;
 }
+
 
 /*Estilo para el Footer*/
 .footer {
