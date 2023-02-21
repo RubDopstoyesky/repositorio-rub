@@ -283,19 +283,20 @@ main {
 }
 
 /*Estilo del contenedor de videos*/
-.videos__container {
+.video__container {
   width: min-content;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.850);
   border: 5px solid grey;
   display: block;
   padding: 1.875em;
-  margin: 0.625em;
+  margin: 2.5em;
   box-sizing: border-box;
 }
+
 /* Media query para vista móvil */
 @media (max-width: 900px) {
-  .videos__container {
+  .video__container {
     margin: 0.313em;
     padding: 0.938em;
   }
@@ -303,7 +304,7 @@ main {
 
 /* Media query para vista móvil */
 @media (max-width: 374px) {
-  .videos__container {
+  .video__container {
     margin: 0.313em;
     padding: 0.938em;
   }
