@@ -312,7 +312,7 @@ main {
 }
 
 /*Estilo para ficha de contacto*/
-.ficha-contacto {
+#ficha-contacto {
   width: auto;
   text-align: center;
   border-top: 5px solid grey;
@@ -323,6 +323,24 @@ main {
   margin: 2.5em;
   background-image: radial-gradient(circle, red, red, black);
 }
+
+@media (max-width: 900px) {
+  #ficha-contacto {
+    width: 100%;
+    margin: 0;
+    padding-left: 3px;
+    padding: 15px;
+    border-width: 3px;
+  }
+}
+/* Media query para vista móvil */
+@media (max-width: 374px) {
+  #ficha-contacto {
+    margin: 0.313em;
+    padding: 0.938em;
+  }
+}
+
 
 .ficha-contacto1 img {
   color: white;
@@ -346,12 +364,6 @@ main {
 /* editado para que siempre abarque lo que tenga de la pantalla a lo ancho*/
 .ubicacion__container{
   background-color: white;
-  border-top: 5px solid grey;
-  border-bottom: 5px solid grey;
-  border-left: 5px solid grey;
-  border-right: 5px solid grey;;
-  padding: 30px;
-  margin: 10px;
   width: 100%;
 }
 
