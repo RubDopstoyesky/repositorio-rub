@@ -167,7 +167,7 @@ main {
 
 /* Estilo para contenedor de cajas */
 .box__container {
-  width: fit-content;
+  width: auto;
   border: 5px solid grey;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.849);
@@ -229,7 +229,8 @@ main {
 
 /*prueba para caja*/
 .box__containershiny {
-    width: fit-content;
+    display: block;
+    width: auto;
     border: 5px solid grey;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.849);
