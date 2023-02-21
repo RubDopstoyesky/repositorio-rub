@@ -35,7 +35,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: initial;
+  font-size:large;
 }
 
 .navbar-brand img {
@@ -92,7 +92,7 @@ main {
 .par__container {
   width: fit-content;
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.850);
   border: 5px solid grey;
   display: block;
   padding: 1.875em;
@@ -100,7 +100,7 @@ main {
 }
 
 /* Media query para vista móvil */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .par__container {
     margin: 0.313em;
     padding: 0.938em;
@@ -169,7 +169,7 @@ main {
 }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .box__container {
     width: 100%;
     margin: 0;
@@ -246,7 +246,7 @@ main {
   }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     .box__containershiny {
       width: 100%;
       margin: 0;
@@ -282,6 +282,13 @@ main {
   padding: 30px;
   margin: 10px;
   width: min-content;
+}
+
+@media (max-width: 900px) {
+  .par__container {
+    margin: 0.313em;
+    padding: 0.938em;
+  }
 }
 
 /*Estilo para ficha de contacto*/
@@ -359,7 +366,7 @@ button:hover {
 }
 
 /* Media queries para vista móvil */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer {
     flex-direction: column;
     font-size: 20px;
