@@ -233,10 +233,10 @@ main {
   
   @keyframes pulse {
     0% {
-      background-color: rgb(4, 2, 66);
+      background-color: rgba(7, 4, 81, 0.741);
     }
     100% {
-      background-color: #921711;
+      background-color: #7f110bbf;
     }
   }
   
