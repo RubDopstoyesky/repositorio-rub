@@ -91,27 +91,24 @@ main {
 
 .par__container {
   width: fit-content;
+  max-width: 700px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.850);
   border: 5px solid grey;
   display: block;
   padding: 1.875em;
-  margin: 0.625em;
+  margin: 0.625em auto;
 }
 
 /* Media query para vista móvil */
 @media (max-width: 900px) {
   .par__container {
-    margin: 0.313em;
-    padding: 0.938em;
   }
 }
 
 /* Media query para vista móvil */
 @media (max-width: 374px) {
   .par__container {
-    margin: 0.313em;
-    padding: 0.938em;
   }
 }
 
@@ -338,8 +335,6 @@ main {
 /* Media query para vista móvil */
 @media (max-width: 374px) {
   #ficha-contacto {
-    margin: 0.313em;
-    padding: 0.938em;
   }
 }
 
