@@ -320,7 +320,7 @@ main {
   border-bottom: 5px solid grey;
   padding: 1.875em;
   margin: 2.5em;
-  background-image: radial-gradient(circle, red, red, black);
+  background-image: radial-gradient(circle, white, gray, black);
 }
 
 @media (max-width: 900px) {
@@ -367,7 +367,6 @@ main {
 /* Media query para vista móvil */
 @media (max-width: 900px) {
   .ubicacion__container {
-    margin: 0.313em;
     padding: 0.938em;
   }
 }
@@ -375,7 +374,6 @@ main {
 /* Media query para vista móvil */
 @media (max-width: 374px) {
   .ubicacion__container {
-    margin: 0.313em;
     padding: 0.938em;
   }
 }
