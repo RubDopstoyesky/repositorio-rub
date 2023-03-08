@@ -152,6 +152,18 @@ header {
       transform: translateY(-10px);
       transition: all 0.5s linear; }
 
+@media screen and (max-width: 900px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px; } }
+
+@media screen and (max-width: 1400px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px; } }
+
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .col {
   width: 100%;
   padding-right: 15px;
@@ -179,6 +191,14 @@ header {
   margin: 2.5em;
   box-sizing: border-box;
   overflow: hidden; }
+
+@media (max-width: 900px) {
+  .box__container {
+    width: 100%;
+    margin: 0;
+    padding-left: 3px;
+    padding: 15px;
+    border-width: 3px; } }
 
 #ficha-contacto {
   width: auto;
@@ -244,3 +264,11 @@ header {
   border: 5px solid grey;
   padding: 1.875em;
   margin: 0.625em auto; }
+
+@media (max-width: 900px) {
+  .par__container {
+    width: 100%;
+    margin: 0;
+    padding-left: 3px;
+    padding: 15px;
+    border-width: 3px; } }

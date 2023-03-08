@@ -18,3 +18,19 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .footer{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 1400px) {
+    .footer{
+	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+}
+}
