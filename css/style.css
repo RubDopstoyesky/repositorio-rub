@@ -6,6 +6,14 @@
   font-family: "Inconsolata", monospace;
   box-sizing: border-box;
 }
+.paddingTB{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.paddingLR{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .col {
   width: 100%;
   padding-right: 15px;
@@ -216,7 +224,7 @@ main {
 
 .box__img img {
   text-align: center;
-  width: 250px;
+  width: 350px;
   transition: all 0.5s linear;
 }
 
@@ -281,44 +289,16 @@ main {
 #ficha-contacto {
   width: auto;
   text-align: center;
+  color: goldenrod;
   border-top: 5px solid grey;
   border-left: 5px solid grey;
   border-right: 5px solid grey;
   border-bottom: 5px solid grey;
   padding: 1.875em;
   margin: 2.5em;
-  background-image: radial-gradient(circle, white, gray, black);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));
 }
 
-@media (max-width: 900px) {
-  #ficha-contacto {
-    width: 100%;
-    margin: 0;
-    padding-left: 3px;
-    padding: 15px;
-    border-width: 3px;
-  }
-}
-
-
-.ficha-contacto1 img {
-  color: white;
-  font-size: 20px;
-  display: inline-flex;
-  text-align: center;
-  width: fit-content;
-  margin: 10px;
-  padding: 30px 30px 30px 30px;
-}
-
-.ficha-contacto1 form {
-  color: black;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  margin: 10px;
-  padding: 30px 30px 30px 30px;
-}
 
 /* editado para que siempre abarque lo que tenga de la pantalla a lo ancho*/
 .ubicacion__container{
@@ -360,6 +340,7 @@ button:hover {
 /*Estilo para el Footer*/
 .footer {
   background-color: orangered;
+  font-size: 25px;
   width: 100%;
   margin: auto;
   padding: 10px;

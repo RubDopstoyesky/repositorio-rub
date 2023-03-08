@@ -48,45 +48,67 @@
         </div>
     </header>
     <main>
-        <!--Una seccion donde subiré los MAS RAROS videos en vivo de Radiohead, esas "jotiyas" que están por Utube MUY PERDIDOS Y ESONDIDOS por que la musica actual se consume MUCHISIMO mas pero yo te los traeré estoy seguro que casi ninguno de ustedes apuesto a que ha visto jaja y agregaré mas estuvo muy ocupado estas ultimas semans para rebuscar pero por ahi los tengo-->
-        <section id="videos-youtube">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-12 col-lg-6">        
-                        <article class="par__container animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data"">
-                            <h2 class="title1">¡Disfruta sus conciertos aqui!</h2>
-                            <h4>Full Album Record Live From the Basement (2008)</h3>
-                            <iframe width="100%" height="360" src="https://www.youtube.com/embed/DWuAn6C8Mfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </article>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <article class="par__container animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data"">
-                            <h2 class="title1">¡Disfruta sus conciertos aqui!</h2>
-                            <h4>Paranoid Android Live at Later Archive (1997)</h3>
-                            <iframe width="100%" height="360" src="https://www.youtube.com/embed/NzPtr_n-m8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </article>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-6 animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data"">
-                        <article class="par__container">
-                            <h2 class="title1">¡Disfruta sus conciertos aqui!</h2>
-                            <h4>Lotus Flower Live From the Basement (2011)</h3>
-                            <iframe width="100%" height="360" src="https://www.youtube.com/embed/JAhywJkalUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </article>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-6 animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data"">
-                        <article class="par__container">
-                            <h2 class="title1">¡Disfruta sus conciertos aqui!</h2>
-                            <h4>Karma Police Live at Amnesty Paris (1998)</h3>
-                            <iframe width="100%" height="360" src="https://www.youtube.com/embed/ywbGBI--hFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </article>
+        <!--La pagina de contacto con un formulario muy sencillo y imagenes que proximaente se animaran para que esten a la venta como "NTFs"-->
+        <section id="ficha-contacto">
+            <h2 class="title1">Llene el formulario para recibir noticias</h2>
+            <div class="row paddingTB">
+                <div class="col-lg-6 col-xs-12 paddingLR" data-aos="fade-up">
+                    <form>
+                        <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre completo">
+                        </div>
+                        <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                            <h4>Correo electronico:</h4>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@example.com">
+                        </div>
+                        <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                            <h4>¿Cual es su album favorito?</h4>
+                            <select name="album" id="1">
+                                <option value="" disabled selected>Elija...</option>
+                                <option value="">OK Computer</option>
+                                <option value="">Kid A</option>
+                                <option value="">The Bends</option>
+                            </select>
+                        </div>
+                        <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                            <h4>Selecciona tu integrante favorito</h4>
+                            <label for="seleccionar">Thom</label>
+                            <input name="integrantes" type="checkbox" />
+                            <label for="seleccionar">Johnny</label>
+                            <input name="integrantes" type="checkbox" />
+                            <label for="seleccionar">Colin</label>
+                            <input name="integrantes" type="checkbox" />
+                        </div>
+                        <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                            <label for="exampleFormControlTextarea1">Escriba aqui por que ama tanto a Radiohead:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <button>-ENVIAR-</button>
+                            <button>-RESETEAR-</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-xs-12 paddingLR" data-aos="fade-up">
+                    <div class="ficha-contacto animate__animated animate__fadeInDown" action="#" enctype="multipart/form-data">
+                        <img src="../images/radiohead_logoOso.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
-        <section id="derechos">
-            <h4 class="title3">No poseo la propiedad intelectual de la musica, todo esta hecho con fines educativos</h4>
-        </section>
-    </main>
+        <!--Hasta acá se encuentra ubicado el club, jeje si algún dia vienen los recibo en mi casa <3-->
+        <div class="ubicacion__container">
+            <h2 class="title3">UBICA EL CLUB</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15087.446471598298!2d-104.31882143860251!3d19.025818531636997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1674807347426!5m2!1ses-419!2smx"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+    </main>  
     <!--Footer-->
     <footer id="contacto" class=" text-white py-3 footer">
         <div class="container-fluid">
