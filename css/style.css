@@ -110,14 +110,14 @@ main {
 /* Media query para vista móvil */
 @media (max-width: 900px) {
   .par__container {
+    width: 100%;
+    margin: 0;
+    padding-left: 3px;
+    padding: 15px;
+    border-width: 3px;
   }
 }
 
-/* Media query para vista móvil */
-@media (max-width: 374px) {
-  .par__container {
-  }
-}
 
 /*Estilos de titulo*/
 .title1 {
@@ -198,11 +198,6 @@ main {
     border-width: 3px;
   }
 }
-/* Media query para vista móvil */
-@media (max-width: 374px) {
-  .box__container {
-  }
-}
 
 /*Caja block*/
 .box__top {
@@ -270,11 +265,6 @@ main {
       padding: 0;;
     }
   }
-  /* Media query para vista móvil */
-  @media (max-width: 374px) {
-    .box__containershiny {
-    }
-  }
 
 /*ME ENORGULLESE QUE EL SELLO DE GARANTIA ESTE EN DORADO Y SEA ESTILIZADO EN HTML POR QUE ES PARTE DE LA ESCENSIA DE LO QUE QUIERE VENDER LA PAGINA*/
 .nft__img {
@@ -285,34 +275,6 @@ main {
 .nft__img:hover {
   transform: scale(1.25, 1.25);
   transition: all 0.5s linear;
-}
-
-/*Estilo del contenedor de videos*/
-.video__container {
-  width: auto;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.850);
-  border: 5px solid grey;
-  display: inline-block;
-  padding: 1.875em;
-  margin: 0.625em auto;
-  box-sizing: border-box;
-}
-
-/* Media query para vista móvil */
-@media (max-width: 900px) {
-  .video__container {
-    margin: 0.313em;
-    padding: 0.938em;
-  }
-}
-
-/* Media query para vista móvil */
-@media (max-width: 374px) {
-  .video__container {
-    margin: 0.313em;
-    padding: 0.938em;
-  }
 }
 
 /*Estilo para ficha de contacto*/
@@ -335,11 +297,6 @@ main {
     padding-left: 3px;
     padding: 15px;
     border-width: 3px;
-  }
-}
-/* Media query para vista móvil */
-@media (max-width: 374px) {
-  #ficha-contacto {
   }
 }
 
@@ -439,8 +396,3 @@ button:hover {
   }
 }
 
-/* Media query para vista móvil mas pequeñas */
-@media (max-width: 374px) {
-  .footer {
-  }
-}
