@@ -6,7 +6,21 @@
   font-family: "Inconsolata", monospace;
   box-sizing: border-box;
 }
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .col {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.container-fluid-carousel{
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 /*Estilo encabezado*/
 header {
   background-color: goldenrod;
@@ -20,7 +34,6 @@ header {
 
 .header__nav {
   margin: 2px;
-  padding: 2px;
   border: 2px;
   width: 100%;
   display: flex;
@@ -29,6 +42,7 @@ header {
   justify-content: space-between;
   font-size: xx-large;
   background-image: radial-gradient(circle, silver, goldenrod, silver);
+  padding: 0.5rem 1rem;
 }
 .navbar-brand {
   display: flex;
@@ -48,10 +62,6 @@ header {
   transition: all 0.5s linear;
 }
 
-.header-container {
-  display: flex;
-  justify-content: center;
-}
 
 .nav-link {
   width: fit-content;
@@ -84,20 +94,17 @@ main {
   align-items: center;
   display: block;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 /*Estilo para parrafos*/
 
 .par__container {
-  width: fit-content;
-  max-width: 700px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.850);
   border: 5px solid grey;
-  display: block;
   padding: 1.875em;
   margin: 0.625em auto;
+  
 }
 
 /* Media query para vista móvil */
@@ -201,6 +208,7 @@ main {
 .box__top {
   color: white;
   font-size: 20px;
+  display: inline-block;
   width: 100%;
 }
 
@@ -400,12 +408,22 @@ button:hover {
   background-color: orangered;
   width: 100%;
   margin: auto;
-  font-size: 25px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer img {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.footer img:hover{
+  transform: translateY(-10px);
+  transition: all 0.5s linear;
 }
 
 /* Media queries para vista móvil */
@@ -420,7 +438,7 @@ button:hover {
   .footer {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
