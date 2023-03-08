@@ -1,0 +1,21 @@
+.box__top {
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+}
+.box__img {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	img {
+		text-align: center;
+		width: 350px;
+		transition: all 0.5s linear;
+		&:hover {
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+			transition: all 0.5s linear;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+
+//General
+@import "./base/reset.scss";
+@import "./base/typo.scss";
+
+//dinamico
+@import "./components/action.scss";
+
+//Diseño
+@import "./layout/structure.scss";
+@import "./layout/header.scss";
+@import "./layout/navi.scss";
+@import "./layout/footer.scss";
+
+//Paginas
+@import "./views/index.scss";
+@import "./views/contacto.scss";
+@import "./views/escuchar.scss";
+@import "./views/albumes.scss";
+@import "./views/videos.scss";

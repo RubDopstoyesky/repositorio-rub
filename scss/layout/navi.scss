@@ -1,0 +1,39 @@
+.header__nav {
+	margin: 2px;
+	border: 2px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	font-size: xx-large;
+	background-image: radial-gradient(circle, silver, goldenrod, silver);
+	padding: 0.5rem 1rem;
+}
+.navbar-brand {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-size: large;
+	img {
+		width: 150px;
+		transition: all 0.5s linear;
+		&:hover {
+			transform: rotate(180deg);
+			transition: all 0.5s linear;
+		}
+	}
+}
+.nav-link {
+	width: fit-content;
+	transition: all 0.5s linear;
+	&:hover {
+		width: fit-content;
+		transform: scale(1.2, 1.2);
+		transform: translateX(5px);
+		color: white;
+		transition: all 0.5s linear;
+		border-bottom: 2px solid red;
+	}
+}

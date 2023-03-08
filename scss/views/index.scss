@@ -1,0 +1,28 @@
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .col {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.container-fluid-carousel {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.box__container {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	border: 5px solid grey;
+	background-color: rgba(0, 0, 0, 0.849);
+	padding: 1.875em;
+	margin: 2.5em;
+	box-sizing: border-box;
+	overflow: hidden;
+}

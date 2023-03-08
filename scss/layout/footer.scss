@@ -1,0 +1,20 @@
+.footer {
+    background-color: orangered;
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.5s linear;
+        &:hover {
+            transform: translateY(-10px);
+            transition: all 0.5s linear;
+        }
+    }
+}

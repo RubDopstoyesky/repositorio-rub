@@ -1,0 +1,23 @@
+button {
+	border-radius: 12px;
+	background-color: gold;
+	margin: 5px;
+	padding: 12px 25px;
+	color: black;
+	cursor: pointer;
+	transition: all 0.5s linear;
+	&:hover {
+		transform: translate(5px);
+		background-color: darkred;
+		transition: all 0.5s linear;
+	}
+}
+
+@keyframes pulse{
+	0% {
+        background-color: rgba(7, 4, 81, 0.741);
+}
+    100% {
+        background-color: rgba(127, 17, 11, 0.741);
+}
+}
