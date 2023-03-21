@@ -11,7 +11,36 @@ button {
 		background-color: darkred;
 		transition: all 0.5s linear;
 	}
+	.carousel-control-prev{
+		background-color: transparent;
+	}
+	.carousel-control-next{
+		background-color: transparent;
+	}
+	.carousel-indicators {
+		margin-bottom: 0;
+	}
+
 }
+
+.buttonlink{
+	border-radius: 12px;
+	background-color: black;
+	margin: 5px;
+	padding: 12px 25px;
+	color: green;
+	cursor: pointer;
+	transition: all 0.5s linear;
+		&:hover {
+		transform: translate(5px);
+		background-color: green;
+		color: black;
+		transition: all 0.5s linear;
+		}
+		.carousel-indicators {
+			margin-bottom: 0;
+		}
+	}
 
 @keyframes pulse{
 	0% {

@@ -63,6 +63,28 @@ button {
     transform: translate(5px);
     background-color: darkred;
     transition: all 0.5s linear; }
+  button .carousel-control-prev {
+    background-color: transparent; }
+  button .carousel-control-next {
+    background-color: transparent; }
+  button .carousel-indicators {
+    margin-bottom: 0; }
+
+.buttonlink {
+  border-radius: 12px;
+  background-color: black;
+  margin: 5px;
+  padding: 12px 25px;
+  color: green;
+  cursor: pointer;
+  transition: all 0.5s linear; }
+  .buttonlink:hover {
+    transform: translate(5px);
+    background-color: green;
+    color: black;
+    transition: all 0.5s linear; }
+  .buttonlink .carousel-indicators {
+    margin-bottom: 0; }
 
 @keyframes pulse {
   0% {
@@ -88,6 +110,19 @@ main {
   align-items: center;
   display: block;
   flex-direction: column; }
+
+.container-fluid-carousel {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px; }
+  .container-fluid-carousel li {
+    list-style: none; }
+  .container-fluid-carousel .carousel-control-prev {
+    background-color: transparent; }
+  .container-fluid-carousel .carousel-control-next {
+    background-color: transparent; }
+  .container-fluid-carousel .carousel-indicators {
+    margin-bottom: 0; }
 
 header {
   background-color: goldenrod;
@@ -173,11 +208,6 @@ header {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-.container-fluid-carousel {
-  width: 100%;
-  padding-right: 0px;
-  padding-left: 0px; }
-
 .box__container {
   width: auto;
   display: flex;
@@ -203,6 +233,7 @@ header {
 #ficha-contacto {
   width: auto;
   text-align: center;
+  justify-content: center;
   color: goldenrod;
   border-top: 5px solid grey;
   border-left: 5px solid grey;
@@ -248,9 +279,9 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
-  align-items: center;
+  align-items: stretch;
   border: 5px solid grey;
   background-color: rgba(0, 0, 0, 0.849);
   padding: 1.875em;
@@ -269,6 +300,5 @@ header {
   .par__container {
     width: 100%;
     margin: 0;
-    padding-left: 3px;
     padding: 15px;
     border-width: 3px; } }

@@ -17,3 +17,21 @@ main {
 	display: block;
 	flex-direction: column;
 }
+
+.container-fluid-carousel {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	li{
+		list-style: none;
+	}
+	.carousel-control-prev{
+		background-color: transparent;
+	}
+	.carousel-control-next{
+		background-color: transparent;
+	}
+	.carousel-indicators {
+		margin-bottom: 0;
+	}
+}
