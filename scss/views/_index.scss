@@ -8,7 +8,7 @@
 	margin-bottom: 10px;
 	.container-fluid-carousel{
 		p{
-			color:goldenrod;
+			color: $goldenrod;
 		}
 	}
 }
@@ -20,7 +20,7 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
-	border: 5px solid grey;
+	border: 5px solid $grey;
 	background-color: rgba(0, 0, 0, 0.849);
 	padding: 1.875em;
 	margin: 2.5em;

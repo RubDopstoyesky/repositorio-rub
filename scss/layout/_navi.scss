@@ -7,7 +7,7 @@
 	align-items: center;
 	justify-content: space-between;
 	font-size: xx-large;
-	background-image: radial-gradient(circle, silver, goldenrod, silver);
+	background-image: radial-gradient(circle, $silver, $goldenrod, $silver);
 	padding: 0.5rem 1rem;
 }
 .navbar-brand {
@@ -32,8 +32,8 @@
 		width: fit-content;
 		transform: scale(1.2, 1.2);
 		transform: translateX(5px);
-		color: white;
+		color: $white;
 		transition: all 0.5s linear;
-		border-bottom: 2px solid red;
+		border-bottom: 2px solid $red;
 	}
 }

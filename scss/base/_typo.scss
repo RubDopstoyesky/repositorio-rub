@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
 
+$black: #000000;
+$goldenrod: #DAA520;
+$red: #FF0000;
+$white: #FFFFFF;
+$darkred: #8B0000;
+$green: #008000;
+$silver: #C0C0C0;
+$grey: #808080;
+
 *{
     font-family: "Inconsolata", monospace;
 }
@@ -7,11 +16,11 @@
 	font-size: 40px;
 	text-align: center;
 	width: 100%;
-	color: red;
+	color: $red;
 	margin-bottom: 10px;
 	transition: all 0.5s linear;
 	&:hover {
-		color: black;
+		color: $black;
 		transition: all 0.5s linear;
 	}
 }
@@ -19,22 +28,22 @@
 	font-size: 30px;
 	text-align: center;
 	width: 100%;
-	color: goldenrod;
+	color: $goldenrod;
 	margin-bottom: 5px;
 	transition: all 0.5s linear;
 	&:hover {
-		color: white;
+		color: $white;
 		transition: all 0.5s linear;
 	}
 }
 .title3 {
 	font-size: 30px;
-	background-color: white;
-	color: goldenrod;
+	background-color: $white;
+	color: $goldenrod;
 	text-align: left;
 	transition: all 0.5s linear;
 	&:hover {
-		color: red;
+		color: $red;
 		transition: all 0.5s linear;
 	}
 }
@@ -45,8 +54,8 @@
 		width: fit-content;
 		transform: scale(9.5);
 		transform: translate(5px);
-		color: white;
+		color: $white;
 		transition: all 0.5s linear;
-		border-bottom: 2px solid red;
+		border-bottom: 2px solid $red;
 	}
 }

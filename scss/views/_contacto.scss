@@ -2,17 +2,14 @@
     width: auto;
     text-align: center;
     justify-content: center;
-    color: goldenrod;
-    border-top: 5px solid grey;
-    border-left: 5px solid grey;
-    border-right: 5px solid grey;
-    border-bottom: 5px solid grey;
+    color: $goldenrod;
+    border: 5px solid $grey;
     padding: 1.875em;
     margin: 2.5em;
     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));
 }
 .ubicacion__container {
-    background-color: white;
+    background-color: $white;
     width: 100%;
 }
 .paddingTB {

@@ -12,32 +12,32 @@
   font-size: 40px;
   text-align: center;
   width: 100%;
-  color: red;
+  color: #FF0000;
   margin-bottom: 10px;
   transition: all 0.5s linear; }
   .title1:hover {
-    color: black;
+    color: #000000;
     transition: all 0.5s linear; }
 
 .title2 {
   font-size: 30px;
   text-align: center;
   width: 100%;
-  color: goldenrod;
+  color: #DAA520;
   margin-bottom: 5px;
   transition: all 0.5s linear; }
   .title2:hover {
-    color: white;
+    color: #FFFFFF;
     transition: all 0.5s linear; }
 
 .title3 {
   font-size: 30px;
-  background-color: white;
-  color: goldenrod;
+  background-color: #FFFFFF;
+  color: #DAA520;
   text-align: left;
   transition: all 0.5s linear; }
   .title3:hover {
-    color: red;
+    color: #FF0000;
     transition: all 0.5s linear; }
 
 .link {
@@ -47,21 +47,21 @@
     width: fit-content;
     transform: scale(9.5);
     transform: translate(5px);
-    color: white;
+    color: #FFFFFF;
     transition: all 0.5s linear;
-    border-bottom: 2px solid red; }
+    border-bottom: 2px solid #FF0000; }
 
 button {
   border-radius: 12px;
-  background-color: gold;
+  background-color: #DAA520;
   margin: 5px;
   padding: 12px 25px;
-  color: black;
+  color: #000000;
   cursor: pointer;
   transition: all 0.5s linear; }
   button:hover {
     transform: translate(5px);
-    background-color: darkred;
+    background-color: #8B0000;
     transition: all 0.5s linear; }
   button .carousel-control-prev {
     background-color: transparent; }
@@ -72,16 +72,16 @@ button {
 
 .buttonlink {
   border-radius: 12px;
-  background-color: black;
+  background-color: #000000;
   margin: 5px;
   padding: 12px 25px;
-  color: green;
+  color: #008000;
   cursor: pointer;
   transition: all 0.5s linear; }
   .buttonlink:hover {
     transform: translate(5px);
-    background-color: green;
-    color: black;
+    background-color: #008000;
+    color: #000000;
     transition: all 0.5s linear; }
   .buttonlink .carousel-indicators {
     margin-bottom: 0; }
@@ -125,7 +125,7 @@ main {
     margin-bottom: 0; }
 
 header {
-  background-color: goldenrod;
+  background-color: #DAA520;
   padding: 10px;
   width: 100%;
   display: flex;
@@ -142,7 +142,7 @@ header {
   align-items: center;
   justify-content: space-between;
   font-size: xx-large;
-  background-image: radial-gradient(circle, silver, goldenrod, silver);
+  background-image: radial-gradient(circle, #C0C0C0, #DAA520, #C0C0C0);
   padding: 0.5rem 1rem; }
 
 .navbar-brand {
@@ -165,9 +165,9 @@ header {
     width: fit-content;
     transform: scale(1.2, 1.2);
     transform: translateX(5px);
-    color: white;
+    color: #FFFFFF;
     transition: all 0.5s linear;
-    border-bottom: 2px solid red; }
+    border-bottom: 2px solid #FF0000; }
 
 .footer {
   background-color: orangered;
@@ -208,7 +208,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px; }
   .container-fluid .container-fluid-carousel p, .container-lg .container-fluid-carousel p, .container-md .container-fluid-carousel p, .container-sm .container-fluid-carousel p, .container-xl .container-fluid-carousel p, .col .container-fluid-carousel p {
-    color: goldenrod; }
+    color: #DAA520; }
 
 .box__container {
   width: auto;
@@ -217,7 +217,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
-  border: 5px solid grey;
+  border: 5px solid #808080;
   background-color: rgba(0, 0, 0, 0.849);
   padding: 1.875em;
   margin: 2.5em;
@@ -238,17 +238,14 @@ header {
   width: auto;
   text-align: center;
   justify-content: center;
-  color: goldenrod;
-  border-top: 5px solid grey;
-  border-left: 5px solid grey;
-  border-right: 5px solid grey;
-  border-bottom: 5px solid grey;
+  color: #DAA520;
+  border: 5px solid #808080;
   padding: 1.875em;
   margin: 2.5em;
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79)); }
 
 .ubicacion__container {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%; }
 
 .paddingTB {
@@ -260,13 +257,13 @@ header {
   padding-right: 10px; }
 
 .box__top {
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   display: inline-block;
   width: 100%; }
 
 .box__img {
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   text-align: center; }
   .box__img img {
@@ -286,7 +283,7 @@ header {
   justify-content: space-around;
   text-align: center;
   align-items: stretch;
-  border: 5px solid grey;
+  border: 5px solid #808080;
   background-color: rgba(0, 0, 0, 0.849);
   padding: 1.875em;
   box-sizing: border-box;
@@ -296,7 +293,7 @@ header {
 .par__container {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.85);
-  border: 5px solid grey;
+  border: 5px solid #808080;
   padding: 1.875em;
   margin: 0.625em auto; }
 
