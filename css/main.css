@@ -207,6 +207,8 @@ header {
   margin-left: auto;
   margin-top: 10px;
   margin-bottom: 10px; }
+  .container-fluid .container-fluid-carousel p, .container-lg .container-fluid-carousel p, .container-md .container-fluid-carousel p, .container-sm .container-fluid-carousel p, .container-xl .container-fluid-carousel p, .col .container-fluid-carousel p {
+    color: goldenrod; }
 
 .box__container {
   width: auto;
@@ -221,6 +223,8 @@ header {
   margin: 2.5em;
   box-sizing: border-box;
   overflow: hidden; }
+  .box__container .img-mirror {
+    transform: scaleX(-1); }
 
 @media (max-width: 900px) {
   .box__container {

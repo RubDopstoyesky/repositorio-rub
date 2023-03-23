@@ -6,6 +6,11 @@
 	margin-left: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	.container-fluid-carousel{
+		p{
+			color:goldenrod;
+		}
+	}
 }
 
 .box__container {
@@ -21,6 +26,9 @@
 	margin: 2.5em;
 	box-sizing: border-box;
 	overflow: hidden;
+	.img-mirror{
+		transform: scaleX(-1);
+	}
 }
 
 @media (max-width: 900px) {
