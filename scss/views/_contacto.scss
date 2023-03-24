@@ -1,12 +1,16 @@
 #ficha-contacto {
     width: auto;
+    display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     color: $goldenrod;
     border: 5px solid $grey;
     padding: 1.875em;
-    margin: 2.5em;
     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));    transition: all 0.5s linear;
+    box-sizing: border-box;
+    overflow: hidden;
+
 }
 
 .box__qr {
