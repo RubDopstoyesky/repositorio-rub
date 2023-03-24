@@ -1,22 +1,22 @@
 #ficha-contacto {
     width: auto;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     color: $goldenrod;
     border: 5px solid $grey;
     padding: 1.875em;
     margin: 2.5em;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));    transition: all 0.5s linear;
 }
 
-@media (max-width: 900px) {
-	.ficha-contacto{
-	width: 100%;
-	margin: 0;
-	padding-left: 3px;
-	padding: 15px;
-	border-width: 3px;
-}
+.box__qr {
+	color: $white;
+	font-size: 20px;
+	text-align: center;
+	img {
+		text-align: center;
+		width: 350px;
+	}
 }
 
 .ubicacion__container {
