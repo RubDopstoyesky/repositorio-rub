@@ -236,10 +236,8 @@ header {
 
 #ficha-contacto {
   width: auto;
-  display: flex;
   text-align: center;
   justify-content: space-around;
-  flex-wrap: wrap;
   color: #DAA520;
   border: 5px solid #808080;
   padding: 1.875em;
