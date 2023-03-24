@@ -8,6 +8,17 @@
     margin: 2.5em;
     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.79), rgba(128, 128, 128, 0.79), rgba(0, 0, 0, 0.79));
 }
+
+@media (max-width: 900px) {
+	.ficha-contacto{
+	width: 100%;
+	margin: 0;
+	padding-left: 3px;
+	padding: 15px;
+	border-width: 3px;
+}
+}
+
 .ubicacion__container {
     background-color: $white;
     width: 100%;
